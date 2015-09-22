@@ -6,7 +6,7 @@ int main()
 	a=10;
 	b=12;
 	c=div(a,b);
-	return c;
+	return 0;
 }
 
 int div(int a, int b)
