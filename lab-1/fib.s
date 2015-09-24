@@ -17,7 +17,6 @@ fibonacci:
 	sub r4,r0,#0
 
 	@ if(R0 <= 0) goto .L3 (which returns 0)
-	cmp r0,#0
 	ble .L3
 
 	@ Compare R4 wtih 1
